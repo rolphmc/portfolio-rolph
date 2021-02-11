@@ -57,6 +57,7 @@ template {
 	display: none
 }
 
+/*limpeza*/
 a {
 	background-color: transparent
 }
@@ -1391,6 +1392,7 @@ textarea {
 	line-height: inherit
 }
 
+/*limpeza*/
 a {
 	color: #337ab7;
 	text-decoration: none
@@ -1972,6 +1974,7 @@ div.container #sobre {
 	margin-right: -15px
 }
 
+/*limpeza*/
 .col-lg-1,
 .col-lg-2,
 .col-lg-3,
@@ -2026,6 +2029,7 @@ div.container #sobre {
 	padding-right: 15px
 }
 
+/*limpeza*/
 .col-xs-1,
 .col-xs-2,
 .col-xs-3,
@@ -2057,6 +2061,7 @@ div.container #sobre {
 	width: 75%
 }
 
+/*limpeza*/
 .col-xs-8 {
 	width: 66.66666667%
 }
@@ -2233,6 +2238,7 @@ div.container #sobre {
 	margin-left: 25%
 }
 
+/*limpeza*/
 .col-xs-offset-2 {
 	margin-left: 16.66666667%
 }
@@ -2376,6 +2382,7 @@ div.container #sobre {
 	.col-sm-push-0 {
 		left: auto
 	}
+	/*limpeza*/
 	.col-sm-offset-12 {
 		margin-left: 100%
 	}
@@ -2412,6 +2419,7 @@ div.container #sobre {
 	.col-sm-offset-1 {
 		margin-left: 8.33333333%
 	}
+	/*limpeza*/
 	.col-sm-offset-0 {
 		margin-left: 0
 	}
@@ -21351,6 +21359,7 @@ fieldset.loading:before {
 	text-align: right
 }
 
+/*limpeza*/
 .text-center {
 	text-align: justify;
 }
@@ -44203,6 +44212,7 @@ table.valign-bottom th {
 	}
 }
 
+/*limpeza*/
 #navbar #home-panel,
 .navbar #home-panel {
 	width: 95%;
@@ -45491,10 +45501,12 @@ a.home-delivery-by:hover {
 	padding: 6px 50px
 }
 
+/*limpeza*/
 #features-products {
 	margin-bottom: 2em
 }
 
+/*limpeza*/
 #features-products.is-header {
 	margin-top: -65px;
     margin-left: auto;
@@ -48193,6 +48205,7 @@ body.rolph-developer .box-now .mgm-coupon a {
 	background-color: #273683
 }
 
+/*limpeza*/
 body.rolph-developer #navbar #home-panel {
 	margin-top: 0;
 	padding-top: 0;
