@@ -22,6 +22,7 @@ span{
     color: #00FFFF;
 }
 
+/*limpeza*/
 article,
 aside,
 details,
@@ -1930,7 +1931,8 @@ pre code {
 	padding-right: 15px
 }
 
-.container-conhecame {
+/*limpeza*/
+div.container #sobre {
     position: relative;
     margin-right: auto;
 	margin-left: auto;
@@ -1956,6 +1958,7 @@ pre code {
 	}
 }
 
+/*limpeza*/
 .container-fluid {
 	margin-right: auto;
 	margin-left: auto;
@@ -1963,6 +1966,7 @@ pre code {
 	padding-right: 15px
 }
 
+/*limpeza*/
 .row {
 	margin-left: -15px;
 	margin-right: -15px
@@ -2241,6 +2245,7 @@ pre code {
 	margin-left: 0
 }
 
+/*limpeza*/
 @media (min-width:768px) {
 	.col-sm-1,
 	.col-sm-2,
@@ -2328,6 +2333,7 @@ pre code {
 	.col-sm-pull-1 {
 		right: 8.33333333%
 	}
+    /*limpeza*/
 	.col-sm-pull-0 {
 		right: auto
 	}
@@ -7498,6 +7504,7 @@ button.close {
 	}
 }
 
+/*limpeza*/
 .btn-group-vertical>.btn-group:after,
 .btn-group-vertical>.btn-group:before,
 .btn-toolbar:after,
@@ -7534,6 +7541,7 @@ button.close {
 	display: table
 }
 
+/*limpeza*/
 .btn-group-vertical>.btn-group:after,
 .btn-toolbar:after,
 .clearfix:after,
@@ -44237,6 +44245,7 @@ table.valign-bottom th {
 	}
 }
 
+/*limpeza*/
 #navbar {
 	position: relative;
 	min-height: 90%;
@@ -48144,6 +48153,7 @@ body.peg-pese .box-now-login {
 	padding-top: 0
 }
 
+/*limpeza*/
 body.rolph-developer #navbar {
 	background: #3d3d3d url(../img/home-background.jpg) no-repeat top;
 	background-size: cover
