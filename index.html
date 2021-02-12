@@ -12,35 +12,37 @@
     <meta property="og:description" content="Rodolfo Carvalho um desenvolvedor brasileiro que gosta de fazer diferente"/>
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/64569831?s=400&u=645f2c48fe4409275e1dad6a39ea3e186f856e41&v=4"/>
     <meta property="og:url" content="https://github.com/RolphMc"/>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Stalinist+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="rolph-developer" ngCloak>
-    <!--
-        Inserir tag do google alternativa caso o script do navegador estiver desativado - identificar o conteúdo do iframe é uma boa prática
-        <noscript><iframe src="" height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript> 
-    -->
-    <nav id="navbar">
-        <div class="container-fluid">
-            <div id="home-panel">
-                <a href="index.html"><img id="home-logo" class="img-responsive" src="img/home-logo.png" alt="Logo RolphMc"></a>
-                <a href="index.html"><img id="home-slogan" src="img/home-slogan.png" alt="Coding is more than that!"></a>
-            </div>
+<body>
+    <nav>
+        <div class="container">
+                <a href="index.html"><img class="logo" src="img/home-logo.png" alt="Logo RolphMc"></a>
+                <a href="index.html"><img class="sublogo" src="img/home-slogan.png" alt="Coding is more than that!"></a>
         </div>
-        <div id="sobre">
-            <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0">
-                    <div id="features-products" class="is-header">
-                        <div class="box-now-header box-now-header-default text-center">
-                            <p><span>Function me(){</span><br>
-                                Formado em ciências exatas, eis o portifolio de um profissional que se considera criativo, fazer diferente e resolver os mais diversos problemas é... no mínimo um hobbie interessante. Conheça um pouco mais sobre meu perfil profissional e como posso agregar valor ao seu projeto};
-                            </p> 
-                        </div>
+        <div class="container">
+            <p><span class="ciano">function me(){</span><br>
+                Formado em ciências exatas, estou entusiasmado com a jornada que temos pela frente em busca de <span class ="salmon">produzir</span> um trabalho significativo - Vamos <span class ="salmon">crescer</span> juntos. Veja minha história};
+            </p> 
+        </div>
+        <div class="container carrossel">
+            <div class="sumario">
+                <div class="conteudo">
+                    <ol class="seletores">
+                        <li data-target="seletor" data-slide="0"></li>
+                        <li data-target="seletor" data-slide="1"></li>
+                        <li data-target="seletor" data-slide="2"></li>
+                        <li data-target="seletor" data-slide="3"></li>
+                        <li data-target="seletor" data-slide="4"></li>
+                    </ol>
+                    <div class="imgens">
+    
                     </div>
-                </div>
-            </div>
+                </div>                
+            </div>    
         </div>           
     </nav>
-
 </body>
 </html>

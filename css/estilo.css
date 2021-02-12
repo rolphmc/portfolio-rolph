@@ -1965,7 +1965,9 @@ div.container #sobre {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 15px;
-	padding-right: 15px
+	padding-right: 15px;
+	background:#3d3d3d url(../img/home-background.jpg) no-repeat top;
+	background-size: cover;
 }
 
 /*limpeza*/
