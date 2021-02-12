@@ -10,7 +10,12 @@
 *,
 :after,
 :before {
-	box-sizing: border-box
+	box-sizing: border-box;
+}
+
+* {
+    font-family: Consolas;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
