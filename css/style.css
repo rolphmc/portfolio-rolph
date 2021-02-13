@@ -11,12 +11,16 @@ nav{padding-top: 2em; margin-bottom: em; min-height: 90%; margin-bottom: 2em; ba
 p{margin-top: 1em; background: linear-gradient(to bottom,  #240823ec, #24082310) ; color: white; padding:0.5em; border-radius: 0.3em;}
 .sublogo{font-family: 'Stalinist One', cursive; -webkit-text-stroke-width: 1.5px; /* largura da borda */;-webkit-text-stroke-color: #240823; /* cor da borda */; color: white; text-align: center; font-size: 1.5em;}
 .container {margin-left: 1em; margin-right: 1em; margin-bottom: 1em;}
-.carrossel {border-bottom-color: #f28d20; box-shadow: 0 1px 5px #ccc; border-bottom: .05em solid #ccc;}
+.carrossel {border-bottom-color: #f28d20; box-shadow: 0 1px 5px #ccc; border-bottom: .05em solid #ccc;border-radius: 0.3em;}
 .sumario {text-align: center; padding: 1em; color: #ffffff; }
 .conteudo {line-height: 0;}
 ol {margin-top: 0; margin-bottom: 1em;}
 .seletores {bottom: 0; position: absolute; left: 50%; z-index: 15; width: 60%; margin-left: -30%; padding-left: 0; }
 .seletor {border-color: white; width: 5px; height: 5px; display: inline-block; margin: 1px; border: 1px solid #fff; border-radius: 10px; cursor: pointer; background-color: transparent; }
+.imagens{position: relative; }
+@media (-webkit-transform-3d)(transform-3d) {
+    
+}
 
 /*CORES*/
 .ciano{color: #00FFFF;}
