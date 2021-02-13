@@ -1,2 +1,2 @@
-# pessoal
-Pasta de planejamento pessoal
+# Portfólio
+Pagina de apresentação pessoal

@@ -7,7 +7,7 @@ img{max-width: 100%;}
 
 /*INICIO*/
 body{height: 100%; position: absolute; background:transparent;}
-nav{position: relative; padding-top: 2em; margin-bottom: em; min-height: 90%; margin-bottom: 2em; background:transparent url(../img/home-background.png) no-repeat top; background-size: cover;}
+nav{position: relative; padding-top: 2em; margin-bottom: em; min-height: 100%; margin-bottom: 2em; background:transparent url(../img/home-background.png) no-repeat top; background-size: 270%; background-position: bottom;}
 p{margin-top: 1em; background: linear-gradient(to bottom,  #240823ec, #24082310) ; color: white; padding:0.5em; border-radius: 0.3em;}
 .sublogo{font-family: 'Stalinist One', cursive; -webkit-text-stroke-width: 1.5px; /* largura da borda */;-webkit-text-stroke-color: #240823; /* cor da borda */; color: white; text-align: center; font-size: 1.5em;}
 .container {margin-left: 1em; margin-right: 1em; margin-bottom: 1em;}
