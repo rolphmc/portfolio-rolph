@@ -7,21 +7,14 @@ img{max-width: 100%;}
 
 /*INICIO*/
 body{height: 100%; position: absolute; background:transparent;}
-nav{position: relative; padding-top: 0; margin-bottom: em; min-height: 100%; margin-bottom: 2em; background:transparent url(../img/home-background.png) no-repeat top; background-size: 270%; background-position: bottom;}
+nav{position: relative; padding-top: 1em; margin-bottom: em; min-height: 100%; margin-bottom: 2em; background:transparent url(../img/home-background.png) no-repeat top; background-size: 270%; background-position: bottom;}
 p{margin-top: 1em; background: linear-gradient(to bottom,  #240823ec, #2408235e) ; color: white; padding:0.5em; border-radius: 0.3em;}
-h1 {font-family: 'Stalinist One', cursive; -webkit-text-stroke-width: 1.5px; /* largura da borda */;-webkit-text-stroke-color: #240823; /* cor da borda */; color: white; text-align: center; font-size: 18px;}
+h1 {position: relative;font-family: 'Stalinist One', cursive; -webkit-text-stroke-width: 1.5px; /* largura da borda */;-webkit-text-stroke-color: #240823; /* cor da borda */; color: white; text-align: center; font-size: 18px;}
 .sublogo{font-family: 'Stalinist One', cursive; -webkit-text-stroke-width: 1.5px; /* largura da borda */;-webkit-text-stroke-color: #240823; /* cor da borda */; color: white; text-align: center; font-size: 1.5em; width: 90%; margin-left: auto; margin-right: auto;}
 /*.container {margin-left: 1em; margin-right: 1em; margin-bottom: 1em;}*/
-#carouselSite {position: relative; margin-top: 1em;}
-.carrossel {border-bottom-color: #f28d20; border-bottom: .05em solid #ccc;border-radius: 0.3em;}
-.sumario {text-align: center; padding: 1em; color: #ffffff; }
-.conteudo {line-height: 0;}
-ol {margin-top: 0; margin-bottom: 1em;}
-.seletores {bottom: 0; position: absolute; left: 50%; z-index: 15; width: 60%; margin-left: -30%; padding-left: 0; }
-.seletor {border-color: white; width: 5px; height: 5px; display: inline-block; margin: 1px; border: 1px solid #fff; border-radius: 10px; cursor: pointer; background-color: transparent; }
-.seletores li.active{background-color: #666; width: 7px; height: 7px;}
-.seletores li {border-color: #666; width: 5px; height: 5px; display: inline-block; text-indent: -999px;border: 1px solid #fff;border-radius: 10px;cursor: pointer;}
-.slides{position: relative; overflow:hidden; width: 100%;}
+#carouselSite{min-height: 225px;}
+.carousel-caption {position: relative; left: 0; right: 0;}
+.carousel-control-prev, .carousel-control-next {top: 60px}
 
 /*CORES*/
 .ciano{color: #00FFFF;}
