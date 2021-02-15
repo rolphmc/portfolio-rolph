@@ -11,7 +11,8 @@ nav{position: relative; padding-top: 0; margin-bottom: em; min-height: 100%; mar
 p{margin-top: 1em; background: linear-gradient(to bottom,  #240823ec, #2408235e) ; color: white; padding:0.5em; border-radius: 0.3em;}
 h1 {font-family: 'Stalinist One', cursive; -webkit-text-stroke-width: 1.5px; /* largura da borda */;-webkit-text-stroke-color: #240823; /* cor da borda */; color: white; text-align: center; font-size: 18px;}
 .sublogo{font-family: 'Stalinist One', cursive; -webkit-text-stroke-width: 1.5px; /* largura da borda */;-webkit-text-stroke-color: #240823; /* cor da borda */; color: white; text-align: center; font-size: 1.5em; width: 90%; margin-left: auto; margin-right: auto;}
-.container {margin-left: 1em; margin-right: 1em; margin-bottom: 1em;}
+/*.container {margin-left: 1em; margin-right: 1em; margin-bottom: 1em;}*/
+#carouselSite {position: relative; margin-top: 1em;}
 .carrossel {border-bottom-color: #f28d20; border-bottom: .05em solid #ccc;border-radius: 0.3em;}
 .sumario {text-align: center; padding: 1em; color: #ffffff; }
 .conteudo {line-height: 0;}

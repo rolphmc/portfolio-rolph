@@ -14,9 +14,9 @@
     <meta property="og:url" content="https://github.com/RolphMc"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Stalinist+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stars.css">
     <link rel="stylesheet" href="node_modules/bootstrap/scss/compiler/bootstrap.css">
+    <link rel="stylesheet" href="compiler/style.css">
+    <link rel="stylesheet" href="compiler/stars.css">    
 
 </head>
 <body>
@@ -37,72 +37,75 @@
                 Formado em ciências exatas, estou entusiasmado com a jornada que temos pela frente em busca de <span class ="salmon">produzir</span> um trabalho significativo - Vamos <span class ="salmon">crescer</span> juntos. navegue por minha história};
             </p> 
         </div>
-        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-        <div class="container carrossel">
-            <div class="sumario"> 
-                <div class="conteudo"> <!--Feactures products-->
-                    <ol class="seletores"> <!--carousel-indicators-->
-                        <li data-target="seletor" data-slide="0"></li>
-                        <li data-target="seletor" data-slide="1"></li>
-                        <li data-target="seletor" data-slide="2"></li>
-                        <li data-target="seletor" data-slide="3"></li>
-                        <li data-target="seletor" data-slide="4"></li>
-                    </ol>
-                    <div class="slides"> <!--Carroussel Inner-->
-                        <div>
-                            <a href="">
-                                <div> <!--img-->
-                                    <img src="img/objetive icon.png" alt="Objetivo">
-                                </div>
-                                <div> <!--title-->
-                                    <h1>Objetivo</h1>
-                                </div>
-                            </a>
+
+        <div id="carouselSite" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="4" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel inner"> 
+                <div class="carousel-item active">
+                    <a href="">
+                        <div> <!--img-->
+                            <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
                         </div>
-                        <div>
-                            <a href="">
-                                <div> <!--img-->
-                                    <img src="img/objetive icon.png" alt="Objetivo">
-                                </div>
-                                <div> <!--title-->
-                                    <h1>Objetivo</h1>
-                                </div>
-                            </a>
+                        <div class="carousel-caption d-none d-md-block"> <!--title-->
+                            <h1>Objetivo</h1>
                         </div>
-                        <div>
-                            <a href="">
-                                <div> <!--img-->
-                                    <img src="img/objetive icon.png" alt="Objetivo">
-                                </div>
-                                <div> <!--title-->
-                                    <h1>Objetivo</h1>
-                                </div>
-                            </a>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <div> <!--img-->
+                            <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
                         </div>
-                        <div>
-                            <a href="">
-                                <div> <!--img-->
-                                    <img src="img/objetive icon.png" alt="Objetivo">
-                                </div>
-                                <div> <!--title-->
-                                    <h1>Objetivo</h1>
-                                </div>
-                            </a>
+                        <div class="carousel-caption d-none d-md-block"> <!--title-->
+                            <h1>Objetivo</h1>
                         </div>
-                        <div>
-                            <a href="">
-                                <div> <!--img-->
-                                    <img src="img/objetive icon.png" alt="Objetivo">
-                                </div>
-                                <div> <!--title-->
-                                    <h1>Objetivo</h1>
-                                </div>
-                            </a>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <div> <!--img-->
+                            <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
                         </div>
-                    </div>
-                </div>                
-            </div>    
-        </div>           
+                        <div class="carousel-caption d-none d-md-block"> <!--title-->
+                            <h1>Objetivo</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <div> <!--img-->
+                            <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block"> <!--title-->
+                            <h1>Objetivo</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <div> <!--img-->
+                            <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block"> <!--title-->
+                            <h1>Objetivo</h1>
+                        </div>
+                    </a>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSite"  data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselSite"  data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </div>
+        </div>                          
     </nav>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
