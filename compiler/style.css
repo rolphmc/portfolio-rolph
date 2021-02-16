@@ -5,17 +5,20 @@ a{text-decoration: none;}
 ul{list-style: none;}
 img{max-width: 100%;}
 
-/*INICIO*/
+/*SECTION - INICIO*/
 body{height: 100%; position: absolute; background:transparent;}
 nav{position: relative; padding-top: 1em; margin-bottom: em; min-height: 100%; margin-bottom: 2em; background:transparent url(../img/home-background.png) no-repeat top; background-size: 270%; background-position: bottom;}
-p{margin-top: 1em; background: linear-gradient(to bottom,  #240823ec, #2408235e) ; color: white; padding:0.5em; border-radius: 0.3em;}
+p{margin-top: 2em; background: linear-gradient(to bottom,  #240823ec, #2408235e) ; color: white; padding:0.5em; border-radius: 0.3em;}
 h1 {position: relative;font-family: 'Stalinist One', cursive; -webkit-text-stroke-width: 1.5px; /* largura da borda */;-webkit-text-stroke-color: #240823; /* cor da borda */; color: white; text-align: center; font-size: 18px;}
 .sublogo{font-family: 'Stalinist One', cursive; -webkit-text-stroke-width: 1.5px; /* largura da borda */;-webkit-text-stroke-color: #240823; /* cor da borda */; color: white; text-align: center; font-size: 1.5em; width: 90%; margin-left: auto; margin-right: auto;}
 /*.container {margin-left: 1em; margin-right: 1em; margin-bottom: 1em;}*/
 #carouselSite{min-height: 225px;}
 .carousel-caption {position: relative; left: 0; right: 0;}
 .carousel-control-prev, .carousel-control-next {top: 60px}
+.carousel-indicators{margin-bottom: 4rem;}
 img.rounded {width: 30%;}
+/*SECTION EXPERIENCIAS*/
+#experiencias{ background-color: #30243A;}
 
 /*CORES*/
 .ciano{color: #00FFFF;}
