@@ -15,6 +15,7 @@ h1 {position: relative;font-family: 'Stalinist One', cursive; -webkit-text-strok
 #carouselSite{min-height: 225px;}
 .carousel-caption {position: relative; left: 0; right: 0;}
 .carousel-control-prev, .carousel-control-next {top: 60px}
+img.rounded {width: 30%;}
 
 /*CORES*/
 .ciano{color: #00FFFF;}

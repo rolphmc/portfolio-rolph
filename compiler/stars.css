@@ -1,8 +1,11 @@
-html {
+#principal {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #99B1B3 0%, #0A3071 100%);
-    overflow: auto;
     z-index: -10;
+}
+
+#experiencias{
+  background-color: #30243A;
 }
   
 #stars {
