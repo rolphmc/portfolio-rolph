@@ -1,161 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <title>RolphMc | The front-end developer </title>
-    <meta name="description" content="Rodolfo Carvalho um desenvolvedor brasileiro que gosta de fazer diferente e conhecimento é o seu combustível. Em busca de desafios na carreira tech"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta property="og:title" content="RolphMc | The front-end developer"/>
-    <meta property="og:description" content="Rodolfo Carvalho um desenvolvedor brasileiro que gosta de fazer diferente"/>
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/64569831?s=400&u=645f2c48fe4409275e1dad6a39ea3e186f856e41&v=4"/>
-    <meta property="og:url" content="https://github.com/RolphMc"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Stalinist+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/bootstrap/scss/compiler/bootstrap.css">
-    <link rel="stylesheet" href="compiler/style.css">
-    <link rel="stylesheet" href="compiler/stars.css">    
-
+    <title>Portfolio</title>
+    <link rel="icon" href="img/favicon-16x16.png">
+    <link rel="icon" href="img/favicon-32x32.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
 </head>
 <body>
-    <section id="principal">  
-        <nav>
-            <div class="container"> <!--Logo e Slogan-->
-                    <div class="sublogo">
-                        <a href="index.html"><img class="logo" src="img/home-logo.png" alt="Logo RolphMc"></a>
-                    </div>
-                    <div class="sublogo">
-                        <img class="sublogo" src="img/home-slogan.png" alt="Coding is more than that!">
-                    </div>
-            </div>
-            <div class="container"> <!--dialogo principal-->
-                <p>
-                    <span class="ciano">Olá,</span> estou entusiasmado com a jornada que temos pela frente em busca de <span class ="salmon">produzir</span> um trabalho significativo - Vamos <span class ="salmon">crescer</span> juntos? conheça minha história:
-                </p> 
-            </div>
-
-            <div id="carouselSite" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel inner"> 
-                    <div class="carousel-item active">
-                        <a href="">
-                            <div> <!--img-->
-                                <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
-                            </div>
-                            <div class="carousel-caption"> <!--title-->
-                                <h1>Objetivo</h1>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="">
-                            <div> <!--img-->
-                                <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
-                            </div>
-                            <div class="carousel-caption"> <!--title-->
-                                <h1>Objetivo</h1>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="">
-                            <div> <!--img-->
-                                <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
-                            </div>
-                            <div class="carousel-caption "> <!--title-->
-                                <h1>Objetivo</h1>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="">
-                            <div> <!--img-->
-                                <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
-                            </div>
-                            <div class="carousel-caption "> <!--title-->
-                                <h1>Objetivo</h1>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="">
-                            <div> <!--img-->
-                                <img src="img/objetive icon.png" class="rounded mx-auto d-block" alt="Objetivo">
-                            </div>
-                            <div class="carousel-caption "> <!--title-->
-                                <h1>Objetivo</h1>
-                            </div>
-                        </a>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSite"  data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSite"  data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="3" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselSite" data-bs-slide-to="4" aria-label="Slide 3"></button>
-                </div>
-            </div>
-        </nav>
-    </section>
-    <Section id="experiencias">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Container wrapper -->
         <div class="container">
-            <h1>Experiencias Profissionais</h1>
-            <div class="container">
-                <p>Formado em engenharia civil, a tempos venho dedicando esforço na busca de aprendizado e aplicação de conceitos relacionados a tecnologia, veja uma time-line da minha jornada:</p>
-            </div>
-            <div class="col-sm-12">
-                <div class="timeline-item" id="item-01" >
-                    <div class="col-md-5 col-12 float-md-left item-title-01">
-                        <h2> SPS TELECOM | 2013-2015 </h2>
-                    </div>
-                    <div class="col-md-5 col-12 float-md-right item-text-01">
-                        <p>Em uma das equipes, minha missão era distribuir manualmente mais de 30 mil ordens de serviços diárias para as equipes em campo. Usava o tempo livre para aprender sobre o VBA me possibilitando criar um sistema de automação para distribuição de todas as ordens. Isso eliminou cerca de 30% de todos os processos manuais da empresa. Conquistei nessa experiência a independência na buscar de informações de forma proativa.</p>
-                    </div>
-                    <div class="col-md-2 col-8 mx-auto">
-                        <img src="img/objetive icon.png" alt="">
-                        <div class="vertical-line"></div>
-                    </div>
-                </div>
-                <div class="timeline-item" id="item-02" >
-                    <div class="col-md-5 col-12 float-md-left item-title-01">
-                        <h2> Solar Ar Condicionado  | 2015-2017 </h2>
-                    </div>
-                    <div class="col-md-5 col-12 float-md-right item-text-01">
-                        <p>Atuando na coleta de informações das equipes de manutenção, criei um sistema de comunicação entre Outlook, Excel e Power Point através do VBA, sua finalidade era elevar a capacidade de compilar os dados enviados pelos técnicos, revelando em tempo real o desempenho, status e prioridade de cada serviço, otimizando a resposta sobre urgências e tomadas de decisão.</p>
-                    </div>
-                    <div class="col-md-2 col-8 mx-auto">
-                        <img src="img/objetive icon.png" alt="">
-                        <div class="vertical-line"></div>
-                    </div>
-                </div>
-                <div class="timeline-item" id="item-03" >
-                    <div class="col-md-5 col-12 float-md-left item-title-01">
-                        <h2> CL Gráfica  | 2018-2020 </h2>
-                    </div>
-                    <div class="col-md-5 col-12 float-md-right item-text-01">
-                        <p>Atuar como empreendedor foi uma grande oportunidade de me desenvolver em programação. Com o objetivo de criar um site para vendas online, desenvolvi competências em HTML5, CSS, Java Script, além de PHP e MySQL ao lado do servidor, possibilitando o lançamento da nossa loja online e incremento de funcionalidades com o passar do tempo.</p>
-                    </div>
-                    <div class="col-md-2 col-8 mx-auto">
-                        <img src="img/objetive icon.png" alt="">
-                        <div class="vertical-line"></div>
-                    </div>
-                </div>
-            </div>
-        </div>        
-    </Section>
+            
+            <!--Brand-->
+            <a class="navbar-brand mb-0" href="#"><img src="img/home-brand-white.png"></a>
+            
+            <!-- Toggler button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarToggle" aria-controls="navBarToggle" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="node_modules/popper.js/dist/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            <!--collapsible wrapper-->
+            <div class="collapse navbar-collapse" id="navBarToggle">
+                
+                <!--Left Links-->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Experiência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Objetivos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Extracurriculares</a>
+                    </li>
+                </ul>
+                <!--Dropdown menu--> 
+                <ul class="navbar nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" id="navDrop" role="button" aria-haspopup="true" aria-expanded="false">Redes Sociais</a>
+                        
+                        <div class="dropdown-menu bg-dark">
+                            <a href="#" class="dropdown-item text-light">Linkedin</a>
+                            <a href="#" class="dropdown-item text-light">GitHub</a>
+                            <a href="#" class="dropdown-item text-light">Instagram</a>
+                            <a href="#" class="dropdown-item text-light">WhatsApp</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>              
+    </nav>
+    
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
 </body>
 </html>
