@@ -19,17 +19,19 @@
             
             <!--Brand-->
             <a class="navbar-brand mb-0" href="#"><img src="img/home-brand-white.png"></a>
+            
             <!-- Toggler button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarToggle">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarToggle" aria-controls="navBarToggle" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <!--collapsible wrapper-->
-            <div class="collapse navbar-collapse" id="#navBarToggle">
+            <div class="collapse navbar-collapse" id="navBarToggle">
+                
                 <!--Left Links-->
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-light" href="#"> Home </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#">Experiência</a>
@@ -47,7 +49,7 @@
                 <!--Dropdown menu--> 
                 <ul class="navbar nav ml-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown" id="navDrop">Redes Sociais</a>
+                        <a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" id="navDrop" role="button" aria-haspopup="true" aria-expanded="false">Redes Sociais</a>
                         
                         <div class="dropdown-menu bg-dark">
                             <a href="#" class="dropdown-item text-light">Linkedin</a>
@@ -65,6 +67,6 @@
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
 </body>
 </html>
