@@ -2,18 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="autor" content="Rodolfo Carvalho">
+    <meta name="description" content="Bem vindos ao meu portfólio, sou desenvolvedor web especializado em front-end e UX/UI design">
+    <meta name="keywords" content="sites, web, desenvolvimento, programador, front-end, designer">
+    <meta name="copyright" content="© 2021 rolph" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    
+    <title>Portfolio | @rolph - Developer and Designer</title>
     <link rel="icon" href="img/favicon-16x16.png">
     <link rel="icon" href="img/favicon-32x32.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
 </head>
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
         <!-- Container wrapper -->
         <div class="container">
             
@@ -29,39 +35,284 @@
             <div class="collapse navbar-collapse" id="navBarToggle">
                 
                 <!--Left Links-->
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link text-light" href="#"> Home </a>
+                        <a class="nav-link text-light" href="#who-im"> Sobre Mim </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Experiência</a>
+                        <a class="nav-link text-light" href="#projects">Projetos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Objetivos</a>
+                        <a class="nav-link text-light" href="#services">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Habilidades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Extracurriculares</a>
+                        <a class="nav-link text-light" href="#knowledge">Habilidades</a>
                     </li>
                 </ul>
                 <!--Dropdown menu--> 
-                <ul class="navbar nav ml-auto">
+                <ul class="navbar nav align-l">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" id="navDrop" role="button" aria-haspopup="true" aria-expanded="false">Redes Sociais</a>
                         
                         <div class="dropdown-menu bg-dark">
-                            <a href="#" class="dropdown-item text-light">Linkedin</a>
-                            <a href="#" class="dropdown-item text-light">GitHub</a>
-                            <a href="#" class="dropdown-item text-light">Instagram</a>
-                            <a href="#" class="dropdown-item text-light">WhatsApp</a>
+                            <a href="https://www.linkedin.com/in/rolphmc/" class="dropdown-item text-light" target="_blank">Linkedin</a>
+                            <a href="https://github.com/RolphMc" class="dropdown-item text-light" target="_blank">GitHub</a>
+                            <a href="https://www.facebook.com/Rolph.MC" class="dropdown-item text-light" target="_blank">Facebook</a>
+                            <a href="https://api.whatsapp.com/send?phone=5511969443603" class="dropdown-item text-light" target="_blank">WhatsApp</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>              
     </nav>
+
+    <!--inicio-->
+    <main>
+
+        <!--introduction-->
+        <section id="introduction">
+            <article id="introduction-text" class="col">
+                <h2>olá, eu sou o <br>
+                    <span id="name-autor">Rodolfo</span><br>
+                    <span>Desenvolvedor especializado em front-end e UI/UX designer</span>
+                </h2>
+                <a href="https://github.com/RolphMc" target="_blank">
+                    <i class="fa fa-github"></i> &nbsp; Meu GitHub
+                </a> 
+            </article>
+            <article id="introduction-img">
+                <img src="img/my-space-cup.png" alt="Eu como um astronauta relaxando em uma xicara flutuante cheia de liquído galáctico " id="my-cup">
+            </article>
+        </section>
+
+        <!--about-->
+        <section id="who-im">
+            <article id="im-img">
+                <img id="my-helmet" src="img/my-helmet.png" alt="Meu capacete de astronauta com a galaxia sendo refletinda sobre o visor">
+            </article>
+            <article id="im-text">
+                <h3>Quem eu sou...</h3>
+                <p>
+                    Meu nome é Rodolfo, sou um desenvolvedor brasileiro que vive em São Paulo capital. formado em engenharia civil através de uma bolsa de estudos integral, adquirir uma elevada carga de conhecimento e experiências com a minha vivênvia próxima dos canteiros de obras e equipes operacionais, contudo, foram minhas aulas de programação em C++ na universidade que dominaram meu coração, fazendo com que meu interesse sempre estivesse voltado para a industria tech.<br>
+                </p>
+                <p>                        
+                    A tempos venho dedicando esforços em paralelo com minhas tarefas cotidianas em busca de aprendizado, até o momento da construção deste portfólio minha jornada no mundo da programação sempre foi um tanto quanto solitária, exatamente por isso meu objetivo atual é expandir horizontes, quero me integrar a projetos em equipe com a finalidade de ampliar a curto prazo habilidades e competências necessárias para desenvolver projetos mais complexos, então caso tenha alguma oportunidade para trabalharmos juntos, bora lá! 
+                </p>
+                <a href="https://www.linkedin.com/in/rolphmc/" target="_blank">
+                    <i class="fa fa-linkedin"></i> &nbsp; Meu Linkedin
+                </a>
+            </article>
+        </section>
+        <!--Projects-->
+        <section id="projects" class="shadow">
+            <h3 >Projetos</h3>
+            <article>
+                <!--CL Gráfica-->
+                <div>
+                    <h2> CL Gráfica </h2>
+                    <p> Atuar como empreendedor foi um grande desafio onde me desenvolvi muito em programação, especificamente em HTML5, CSS, Java Script, além de PHP e MySQL ao lado do servidor</p>
+                    <span class="btn-projects">
+                        <a href="#" target="_blank">
+                            <button class="btn btn-dark"><i class="fa fa-link"></i>WebSite</button>
+                        </a>
+                        <a href="https://github.com/RolphMc" target="_blank">
+                            <button class="btn btn-dark"><i class="fa fa-link"></i>GitHub</button>
+                        </a>
+                    </span>
+                </div>
+                <!--Avaliador Online-->
+                <div>
+                    <h2> Avaliador de imóveis online </h2>
+                    <p> Estou desenvolvendo uma aplicação Android para estimar o valor de imóveis de forma simples, atingindo um grau razoável de fundamentação com poucas informações fornecidas pelos usuários</p>
+                    <span class="btn-projects">
+                        <a href="#" target="_blank">
+                            <button class="btn btn-dark"><i class="fa fa-link"></i>WebSite</button>
+                        </a>
+                        <a href="https://github.com/RolphMc/avaliadorImovelOnline" target="_blank">
+                            <button class="btn btn-dark"><i class="fa fa-link"></i>GitHub</button>
+                        </a>
+                    </span>
+                </div>                                
+                <!--Dias Automação-->
+                <div>
+                    <h2> Dias Automação - Instagram </h2>
+                    <p> Publicidade desenvolvida para a Dias Automação. Trabalhar com ilustrações isométricas é uma das minhas atividades prediletas</p>
+                    <span class="btn-projects">
+                        <a href="https://www.instagram.com/diasautomacao/" target="_blank">
+                            <button class="btn btn-dark"><i class="fa fa-link"></i>WebSite</button>
+                        </a>
+                        <a href="https://github.com/RolphMc" target="_blank">
+                            <button class="btn btn-dark"><i class="fa fa-link"></i>GitHub</button>
+                        </a>
+                    </span>
+                </div>
+                <!--Histórias dinâmicas-->
+                <div>
+                    <h2> Histórias dinâmicas </h2>
+                    <p> Pensando em minha filha, estou criando uma aplicação android que consiste em adaptar histórias que estão em domínio publico para uma versão com vários desfechos, moldando-se conforme a interação do usuário</p>
+                    <span class="btn-projects">
+                        <a href="#" target="_blank">
+                            <button class="btn btn-dark"><i class="fa fa-link"></i>WebSite</button>
+                        </a>
+                        <a href="https://github.com/RolphMc/avaliadorImovelOnline" target="_blank">
+                            <button class="btn btn-dark"><i class="fa fa-link"></i>GitHub</button>
+                        </a>
+                    </span>
+                </div>
+                <a href="https://github.com/RolphMc" target="_blank" id="reposit">Visite meus repositórios</a>
+            </article>
+        </section>
+        <!--Services-->
+        <section id="services">
+            <h2>Serviços</h2>
+                <article>
+                    <div>
+                        <img src="" alt="" class="icon-img">
+                        <h2>Criação de Sites</h2>
+                        <p>Desenvolvimento de sites profissionais, sistemas web, blogs e lojas virtuais focado em resultados</p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="" class="icon-img">
+                        <h2>Sites responsivos</h2>
+                        <p>Criação de sites responsivos para a melhor visualização em dispositivos móveis com qualidade em todas as telas</p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="" class="icon-img">
+                        <h2>Layouts</h2>
+                        <p>Desenho de layouts que se adequam ao seu negócio de forma profissional e fiel no desenvolvimento</p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="" class="icon-img">
+                        <h2>SEO e Analytics</h2>
+                        <p>Estratégia e monitoração para seu negócio, fazendo com que seu site apareça cada vez melhor nas buscas</p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="" class="icon-img">
+                        <h2>E-mail Marketing</h2>
+                        <p>Criação e ativação de campanhas por e-mail, gerando leads e capacitando para um melhor desempenho</p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="" class="icon-img">
+                        <h2>Tecnologias</h2>
+                        <p>Desenvolvimento através das melhores linguagens e tecnologias disponíveis na criação do seu projeto</p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="" class="icon-img">
+                        <h2>Design Gráfico</h2>
+                        <p>Realização da comunicação visual impressa do seu projeto ou seu negócio</p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="" class="icon-img">
+                        <h2>Redes Sociais</h2>
+                        <p>Não deixe sua empresa de fora das redes sociais, divulgue seu negócio e apareça para seu público-alvo</p>
+                    </div>
+                </article>
+        </section>
+        <!--knowledge-->
+        <section id="knowledge">
+            <h2 id="knowledge-text">Conhecimentos</h2>
+                <div>
+                    <article class="htmlecss">
+                        <img src="" alt="" class="icon-img" />
+                        <h2>HTML e CSS</h2>
+                        <p>2 anos de experiência</p>
+                        <div class="stars-knowledge">
+                            <span style="width:90%" class="level-knowledge"></span>
+                        </div>
+                    </article>
+            
+                    <article class="js">
+                        <img src="" alt="" class="icon-img" />
+                        <h2>JavaScript</h2>
+                        <p>1 ano de experiência</p>
+                        <div class="stars-knowledge">
+                            <span style="width:50%" class="level-knowledge"></span>
+                        </div>
+                    </article>
+            
+                    <article class="bootstrap">
+                        <img src="" alt="" class="" />
+                        <h2>Bootstrap</h2>
+                        <p>1 ano de experiência</p>
+                        <div class="stars-knowledge">
+                            <span style="width:80%" class="level-knowledge"></span>
+                        </div>
+                    </article>
+            
+                    <article class="sass">
+                        <img src="" alt="" class="" />
+                        <h2>Sass</h2>
+                        <p>5 meses de experiência</p>
+                        <div class="stars-knowledge">
+                            <span style="width:80%" class="level-knowledge"></span>
+                        </div>
+                    </article>
+            
+                    <article class="figma">
+                        <img src="" alt="" class="icon-img" />
+                        <h2>UI/UX Design</h2>
+                        <p>5 meses de experiência</p>
+                        <div class="stars-knowledge">
+                            <span style="width:90%" class="level-knowledge"></span>
+                        </div>
+                    </article>
+            
+                    <article class="reactjs">
+                        <img src="" alt="" class="icon-img" />
+                        <h2>ReactJS</h2>
+                        <p>1 mês de experiência</p>
+                        <div class="stars-knowledge">
+                            <span style="width:10%" class="level-knowledge">
+                        </span></div>
+                    </article>
+            
+                    <article class="next">
+                        <img src="" alt="" class="icon-img" />
+                        <h2>Next.js</h2>
+                        <p>1 mês de experiência</p>
+                        <div class="stars-knowledge">
+                            <span style="width:10%" class="level-knowledge"></span>
+                        </div>
+                    </article>
+            
+                    <article class="typescript">
+                        <img src="" alt="" class="icon-img" />
+                        <h2>TypeScript</h2>
+                        <p>1 mês de experiência</p>
+                        <div class="stars-knowledge">
+                            <span style="width:10%" class="level-knowledge"></span>
+                        </div>
+                    </article>
+            
+                </div>
+        </section>
+        
+        <!--Scroll top-->
+        <div id="stopped" class="scrollTop">
+            <span>
+                <a href=""><i class="fa fa-chevron-up"></i></a>
+            </span>
+        </div>
+    </main>
+
+    <footer>
+        <p>Orgulhosamente feito por Rodolfo Carvalho</p>
+        <article id="sociais-icons">
+            <a href="https://www.linkedin.com/in/rolphmc/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/RolphMc" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.facebook.com/Rolph.MC" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5511969443603" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            
+            
+        </article>
+    </footer>
     
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
