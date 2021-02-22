@@ -54,7 +54,7 @@
                     </li>
                 </ul>
                 <!--Dropdown menu--> 
-                <ul class="navbar nav align-l">
+                <ul class="navbar nav align-l navbar-collapse">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" id="navDrop" role="button" aria-haspopup="true" aria-expanded="false">Redes Sociais</a>
                         
@@ -76,10 +76,10 @@
         <!--introduction-->
         <section id="introduction">
             <article id="introduction-text" class="col">
-                <h2 class="intro">Olá, eu sou o <br>
+                <p class="intro no-ident">Olá, eu sou o <br>
                     <span id="name-autor">Rodolfo</span><br>
                     <span>Desenvolvedor especializado em front-end UX/UI designer</span>
-                </h2>
+                </p>
                 <a href="https://github.com/RolphMc" target="_blank">
                     <i class="fa fa-github"></i> &nbsp; Meu GitHub
                 </a> 
@@ -98,10 +98,13 @@
                     <div class="gradiente">
                         <h3>Quem eu sou...</h3>
                         <p>
-                            Sou um desenvolvedor brasileiro que vive em São Paulo capital. formado em engenharia civil por uma bolsa de estudos integral, adquiri uma elevada carga de conhecimento estando próximo dos canteiros de obras, contudo foram minhas aulas de programação em C++ na universidade que dominaram meu coração e roubaram minha atenção para a industria tech.<br>
+                            Sou um desenvolvedor brasileiro que vive em São Paulo capital. formado em engenharia civil através de uma bolsa de estudos, adquiri uma elevada carga de conhecimento estando próximo dos canteiros de obras, contudo foram minhas aulas de programação em C++ na universidade que dominaram meu coração e roubaram minha atenção para a indústria tech.<br>
                         </p>
                         <p>                        
-                            A tempos venho dedicando esforços em paralelo com minhas tarefas cotidianas em busca de aprendizado, até o momento da construção deste portfólio minha jornada no mundo da programação sempre foi um tanto quanto solitária, justificando meu objetivo atual que é expandir horizontes, quero me integrar a projetos em equipe com a finalidade de ampliar em um curto prazo habilidades e competências necessárias para desenvolver projetos mais complexos, então caso tenha alguma oportunidade para trabalharmos juntos, bora lá! 
+                            Adentrei tecnologia em uma equipe operacional de uma empresa de manutenção, onde me tornei amante do Excel criando funcionalidades com o VBA, desde então me tornei cada vez mais curioso, gosto de estudar e aprender um pouco de tudo, literalmente um Lifelong Learning. <br> 
+                        </p>
+                        <p>
+                            Meu objetivo atual é expandir horizontes, quero me integrar a projetos em equipe e estou entusiasmado com a possibilidade de produzir um trabalho significativo, vamos crescer juntos, veja meu portifólio:
                         </p>
                         <a href="https://www.linkedin.com/in/rolphmc/" target="_blank">
                             <i class="fa fa-linkedin"></i> &nbsp; Meu Linkedin
@@ -127,7 +130,7 @@
                 <div class="cards" id="property-appraser">
                     <div class="gradiente">
                         <h2> Avaliador de imóveis online </h2>
-                        <p> Uma aplicação Android para estimar o valor de imóveis de forma simples e com um grau razoável de fundamentação com poucas informações fornecidas pelos usuários</p>
+                        <p> Desenvolvendo uma aplicação Android para o público infantil que consiste em reproduzir histórias de domínio público conforme a interação e condicionais definidas pelo usuário</p>
                     </div>
                 </div>
 
@@ -321,5 +324,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');});
+
+        $('.dropdown-menu>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');});
+    </script>
 </body>
 </html>
