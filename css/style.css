@@ -64,7 +64,8 @@ a#reposit {margin: 0 auto}
 @media screen and (max-width: 1000px) {
     h3{font-size: 36px; font-weight: 700;font-family: 'Space Mono', monospace; text-align: end;}
     p, h2 {text-align: end;}
-
+    h2.intro {text-align: center;}
+    
 
     .cards-group{display: flex; justify-content: space-between; flex-wrap: wrap; text-align: left;}
     .cards{ flex-grow: 1; flex-basis: 300px; background-color: #33373B; padding: 40px 25px 80px 25px; margin: 10px; border-radius: 5px; box-shadow: 0 0 10px #cacaca; position: relative; text-align: justify;}
@@ -82,7 +83,7 @@ a#reposit {margin: 0 auto}
     #im-img{ display:block; float:left; z-index: 1;margin-top: 24%}
     #my-helmet{width: 90%; min-width: 350px; position: absolute; margin-left: -50px;}
 
-    #projects, #services, #knowledge{padding-top: 20%}
+    #projects, #services, #knowledge{padding: 20% 0 5% 0;}
 
     #stopped{display: none;}
 }
