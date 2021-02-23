@@ -1,89 +1,43 @@
 <h1 align="center">
-🏗️<br>Portfólio em construção!</h1>
+🔭<br>Portfólio</h1>
 
 <p align="justify">
-Seja muito bem vindo(a) ao meu github, neste repositório estou desenvolvedo meu portfólio relacionado a meus trabalhos front-end. vejam abaixo um preview que em breve estará diponivel para navegação no GitHub pages. 
+Seja muito bem vindo(a) ao meu github, neste repositório apresento meu portfólio, para acessa-lo diretamente no GitPages <a href="https://rolphmc.github.io/portfolio-rolph/" target="_blank">clique aqui</a>. 
 </p>
 
-![Portfólio em Construção](img/img-portfolio.png)
+![Portifólio pronto](img/img-portfolio.png)
 
-## 📚 Sections
+## 📑 Sections
 
-- **Header:** <cite>Arte desruptiva me fascina.</cite><br>Sabe quando você está andando pela rua e vê aquela arte em um poste ou num muro e se pergunta: Quem será que fez isso? Nesse header demonstro minha  
+- **Header:** <cite>Arte desruptiva me fascina.</cite><br>Sabe quando você está andando pela rua e vê aquela arte em um poste ou num muro e se pergunta: Quem será que fez isso? Nesse header juntei o universo que me fascina com o café que me deixa acordado.
+- **Sobre Mim:** Um pouco sobre meu legado e meus objetivos;
+- **Projetos:** Alguns projetos que estou desenvolvendo, como sou novo no GitHub estou adaptando-os a platafoma e em breve haverá links para os respectivos códigos no GitHub;
+- **Serviços:** Demonstra os diferentes serviços que posso oferecer;
+- **Conhecimentos:** Atualmente meu foco é no front-end, porém nesta seção apresento alguns de meus conhecimentos que abrange desde o desenvolvimento mobile a linguagens voltadas para o back-end;
 
-<!--- **Sobre Mim:** Nessa seção tenho uma descrição dizendo um pouco sobre mim;
-- **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
-- **Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos;
-- **Conhecimentos:** Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end;-->
+## 📱 Tecnologias utilizadas
+ Segue algumas ferramentas e técnologias que usei no desenvolvimento desta página:
 
----
-
-## 💼 Tecnologias utilizadas
-<!--Para o desenvolvimento deste site utilizei as seguintes tecnologias:-->
-
--Interface de desenvolvimento integrada - IDE:
-> Visual Studio Code 
-- Linguages de Marcação - Markups: 
-> HTML;
-> Markdown;
-- Liguagens de Estilo;
-> CSS;
-- Liguagens de Programação:
-> JavaScript;
-- Bibliotecas:
->JQuery;
-- Pré-processador de CSS: 
-- SASS;
+<strong>Interface de desenvolvimento integrada - IDE:</strong>
+ - Visual Studio Code 
+<strong>Linguages de Marcação - Markups:</strong> 
+ - HTML;
+ - Markdown;
+<strong>Liguagens de Estilo;</strong>
+ - CSS;
+<strong>Liguagens de Programação:</strong>
+ - JavaScript;
+<strong>Bibliotecas:</strong>
+ - JQuery;
+<strong>Pré-processadores de CSS:</strong> 
+ - SASS;
 
 
 ---
 
-## 📌 Ajustes e melhorias
-<!--O site ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:-->
+## 🛠️ Ajustes e melhorias
+Minha página ainda está em desenvolvimento e pretendo fazer as seguintes melhorias:
 
-- [] task xyz;
-- [] task xyz;
-- [] task xyz;
-- [] task xyz;
-- [] task xyz;
-- [] task xyz;
-
----
+- [ ] criar menu de opções de visualização;
 
 <br>[🔝 Voltar ao topo](#-seções)<br>
-
-<!--## 🦄 Autor<br>
-<table>
-  <tr>
-    <td align="center">
-      <a href="">
-        <img src=""/><br>
-        <sub>
-          <b>Iuri Silva</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>-->
-
-<!--## 🌈 Contribuidores<br>
-<table>
-  <tr>
-    <td align="center">
-      <a href="">
-        <img src="" width="100px;" alt="foto de alguém no github"/><br>
-        <sub>
-          <b>Brian Ito</b>
-        </sub>
-      </a><br>
-    </td>
-    <td align="center">
-      <a href="">
-        <img src="" width="100px;" alt="foto de alguém no github"/><br>
-        <sub>
-          <b>Afaferz</b>
-        </sub>
-      </a><br>
-    </td>
-  </tr>
-</table>-->
