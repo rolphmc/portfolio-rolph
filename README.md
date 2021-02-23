@@ -1,3 +1,4 @@
+<a id="top"></a>
 <h1 align="center">
 🔭<br>Portfólio</h1>
 
@@ -5,7 +6,7 @@
 Seja muito bem vindo(a) ao meu github, neste repositório apresento meu portfólio, para acessa-lo diretamente no GitPages <a href="https://rolphmc.github.io/portfolio-rolph/" target="_blank">clique aqui</a>. 
 </p>
 
-<img src="https://raw.githubusercontent.com/RolphMc/portfolio-rolph/main/img/img-portf%C3%B3lio.png" align="center">
+<img src="https://raw.githubusercontent.com/RolphMc/portfolio-rolph/main/img/img-portf%C3%B3lio.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Rolph">
 
 ## 📑 Sections
 
@@ -14,6 +15,8 @@ Seja muito bem vindo(a) ao meu github, neste repositório apresento meu portfól
 - **Projetos:** Alguns projetos que estou desenvolvendo, como sou novo no GitHub estou adaptando-os a platafoma e em breve haverá links para os respectivos códigos no GitHub;
 - **Serviços:** Demonstra os diferentes serviços que posso oferecer;
 - **Conhecimentos:** Atualmente meu foco é no front-end, porém nesta seção apresento alguns de meus conhecimentos que abrange desde o desenvolvimento mobile a linguagens voltadas para o back-end;
+
+---
 
 ## 📱 Tecnologias utilizadas
  Segue algumas ferramentas e técnologias que usei no desenvolvimento desta página:
@@ -45,4 +48,4 @@ Minha página ainda está em desenvolvimento e pretendo fazer as seguintes melho
 
 - [ ] criar menu de opções de visualização;
 
-<br>[🔝 Voltar ao topo](#-seções)<br>
+<br>[🔝 Voltar ao topo](#top)<br>
