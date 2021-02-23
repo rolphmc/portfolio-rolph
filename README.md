@@ -5,7 +5,7 @@
 Seja muito bem vindo(a) ao meu github, neste repositório apresento meu portfólio, para acessa-lo diretamente no GitPages <a href="https://rolphmc.github.io/portfolio-rolph/" target="_blank">clique aqui</a>. 
 </p>
 
-![Portifólio pronto](img/img-portfolio.png)
+![Portifólio pronto](https://raw.githubusercontent.com/RolphMc/portfolio-rolph/main/img/img-portf%C3%B3lio.png)
 
 ## 📑 Sections
 
@@ -18,18 +18,18 @@ Seja muito bem vindo(a) ao meu github, neste repositório apresento meu portfól
 ## 📱 Tecnologias utilizadas
  Segue algumas ferramentas e técnologias que usei no desenvolvimento desta página:
 
-<strong>Interface de desenvolvimento integrada - IDE:</strong>
+<strong>Interface de desenvolvimento integrada - IDE:</strong><br>
  - Visual Studio Code 
-<strong>Linguages de Marcação - Markups:</strong> 
+<strong>Linguages de Marcação - Markups:</strong><br> 
  - HTML;
  - Markdown;
-<strong>Liguagens de Estilo;</strong>
+<strong>Liguagens de Estilo;</strong><br>
  - CSS;
-<strong>Liguagens de Programação:</strong>
+<strong>Liguagens de Programação:</strong><br>
  - JavaScript;
-<strong>Bibliotecas:</strong>
+<strong>Bibliotecas:</strong><br>
  - JQuery;
-<strong>Pré-processadores de CSS:</strong> 
+<strong>Pré-processadores de CSS:</strong><br>
  - SASS;
 
 
