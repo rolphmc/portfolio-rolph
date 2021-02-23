@@ -10,7 +10,7 @@ Seja muito bem vindo(a) ao meu github, neste repositório apresento meu portfól
 
 ## 📑 Sections
 
-- **Header:** <cite>Arte desruptiva me fascina.</cite><br>Sabe quando você está andando pela rua e vê aquela arte em um poste ou num muro e se pergunta: Quem será que fez isso? Nesse header tentei demonstrar um pouco da minha personalidade e fazer algo fora da caixa, união do universo que me fascina com o café que me deixa acordado.
+- **Header:** <cite>Arte desruptiva me fascina.</cite><br>Sabe quando você está andando pela rua e vê aquela arte em um poste ou muro e se pergunta: Quem será que fez isso? Nesse header tentei demonstrar um pouco da minha personalidade e fazer algo fora da caixa, união do universo que me fascina com o café que me deixa acordado.
 - **Sobre Mim:** Um pouco sobre meu legado e meus objetivos;
 - **Projetos:** Alguns projetos que estou desenvolvendo, como sou novo no GitHub estou adaptando-os a platafoma e em breve haverá links para os respectivos códigos no GitHub;
 - **Serviços:** Demonstra os diferentes serviços que posso oferecer;
