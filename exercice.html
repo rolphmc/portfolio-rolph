@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Rodolfo Carvalho">
+    <meta name="description" content="Bem vindos ao meu portfólio, sou desenvolvedor web especializado em front-end e UX/UI design">
+    <meta name="keywords" content="sites, web, desenvolvimento, programador, front-end, designer">
+    <meta name="copyright" content="© 2021 rolph" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="img/background-msocial.png"/>
+    <meta property="og:url" content="https://rolphmc.github.io/portfolio-rolph/"/>
+    
+    <title>Portfolio | @rolph - Developer and Designer</title>
+    <link rel="icon" href="img/favicon-16x16.png">
+    <link rel="icon" href="img/favicon-32x32.png">
+    <!-- Bootstrap CSS 
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="carregar()">
+
+    <style>
+        section{width: max-content; padding: 70px}
+        h1{ text-align: center;}
+    </style>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <!-- Container wrapper -->
+        <div class="container">
+            
+            <!--Brand-->
+            <a class="navbar-brand mb-0" href="#"><img src="img/home-brand-white.png"></a>
+            
+            <!-- Toggler button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarToggle" aria-controls="navBarToggle" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--collapsible wrapper-->
+            <div class="collapse navbar-collapse" id="navBarToggle">
+                
+                <!--Left Links-->
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#who-im"> Sobre Mim </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#projects">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#knowledge">Habilidades</a>
+                    </li>
+                </ul>
+                <!--Dropdown menu--> 
+                <ul class="navbar nav align-l navbar-collapse">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" id="navDrop" role="button" aria-haspopup="true" aria-expanded="false">Redes Sociais</a>
+                        
+                        <div class="dropdown-menu bg-dark">
+                            <a href="https://www.linkedin.com/in/rolphmc/" class="dropdown-item text-light" target="_blank">Linkedin</a>
+                            <a href="https://github.com/RolphMc" class="dropdown-item text-light" target="_blank">GitHub</a>
+                            <a href="https://www.facebook.com/Rolph.MC" class="dropdown-item text-light" target="_blank">Facebook</a>
+                            <a href="https://api.whatsapp.com/send?phone=5511969443603" class="dropdown-item text-light" target="_blank">WhatsApp</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>              
+    </nav>
+
+    <main>
+        
+        <header id="landscape">
+            <section id="introduction">
+                <h1>Escolha um horário e veja o resultado</h1>
+                <br>
+                <p id="msg">Mensagen dinâmica</p>
+            </section>            
+        </header>
+
+    </main>
+
+    <footer>
+        <article>
+            <p class="text-center padding-top2"> Orgulhosamente desenvolvido por Rodolfo Carvalho</p>
+        </article>
+        <article id="social-icons">
+            <a href="https://www.linkedin.com/in/rolphmc/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/RolphMc" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.facebook.com/Rolph.MC" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5511969443603" target="_blank"><i class="fa fa-whatsapp"></i></a>
+        </article>
+    </footer>
+    
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>-->  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        /*navbar*/
+        $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');});
+        $('.dropdown-menu>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');});
+        
+        /*landscap time*/
+        function carregar() {
+            var section = window.document.getElementById('landscape')
+            var msg = window.document.getElementById('msg')
+            var data = new Date()
+            var hora = data.getHours()
+
+            msg.innerHTML = 'Agora são ${hora} horas'
+
+
+        }
+        
+          
+
+    </script>
+</body>
+</html>
