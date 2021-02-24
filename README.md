@@ -1,6 +1,6 @@
 <a id="top"></a>
 <h1 align="center">
-🔭<br>Portfólio</h1>
+💼<br>Portfólio</h1>
 
 <p align="justify">
 Seja muito bem vindo(a) ao meu github, neste repositório apresento meu portfólio, para acessa-lo diretamente no GitPages <a href="https://rolphmc.github.io/portfolio-rolph/" target="_blank">clique aqui</a>. 
