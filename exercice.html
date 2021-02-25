@@ -16,16 +16,20 @@
     <link rel="icon" href="img/favicon-32x32.png">
     <!-- Bootstrap CSS 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">-->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="css/style.css">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body onload="carregar()">
 
     <style>
-        section{width: max-content; padding: 70px}
-        h1{ text-align: center;}
+        main{; width: 100%; height: 100vh;     padding-top: 7%;}
+        header{color: white; text-align:center;}
+        section{background: #454a4e; border-radius: 10px; padding: 15px; width: 600px; margin: auto; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);}
+        #cx{text-align: center; padding: 5px;}
+        img{max-width: 350px; }
     </style>
 
     <!--Navbar-->
@@ -78,13 +82,17 @@
 
     <main>
         
-        <header id="landscape">
-            <section id="introduction">
-                <h1>Escolha um horário e veja o resultado</h1>
-                <br>
-                <p id="msg">Mensagen dinâmica</p>
-            </section>            
+        <header>
+            <h1>Escolha um horário e veja o resultado</h1>      
         </header>
+        <section>
+            <div class="cx">
+                <h1 id="msg">Mensagen dinâmica</h1>
+            </div>
+            <div>
+                <img id="img" src="img/exercise-sample1/12hours.png">
+            </div>                
+        </section>      
 
     </main>
 
@@ -119,13 +127,43 @@
         
         /*landscap time*/
         function carregar() {
-            var section = window.document.getElementById('landscape')
+            var bg = window.document.getElementById('introduction')
             var msg = window.document.getElementById('msg')
+            var img = window.document.getElementById('img')
             var data = new Date()
             var hora = data.getHours()
+            
+            msg.innerHTML = `Agora são ${hora} horas`
 
-            msg.innerHTML = 'Agora são ${hora} horas'
-
+            switch (true) {
+                case (04 > hora && hora >= 00):
+                    img.src = 'img/exercise-sample1/00hours.png'
+                    break;
+                case (06 > hora && hora >= 04):
+                    img.src = 'img/exercise-sample1/04hours.png'
+                    break;
+                case (12 > hora && hora >= 06):
+                    img.src = 'img/exercise-sample1/06hours.png'
+                    break;
+                case (17 > hora && hora >= 12):
+                    img.src = 'img/exercise-sample1/12hours.png'
+                    break;
+                case (20 > hora && hora >= 17):
+                    img.src = "img/exercise-sample1/17hours.png"
+                    break;
+                case (23 > hora && hora >= 20):
+                    img.src = 'img/exercise-sample1/20hours.png'
+                    document.body.style.background = 'linear-gradient(to top, #375790, #96D6F2)'
+                    break;
+            }
+            /*          
+            if(hora >= 0 && hora < 12){
+                //Bom dia
+            }else if (hora >= 12 && hora < 18){
+                //Boa tarde
+            } else {
+                //Boa noite
+            }*/
 
         }
         
