@@ -16,21 +16,13 @@
     <link rel="icon" href="img/favicon-32x32.png">
     <!-- Bootstrap CSS 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
-    <link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-</head>
-<body onload="carregar()">
+    <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        main{; width: 100%; height: 100vh;     padding-top: 7%;}
-        header{color: white; text-align:center;}
-        section{background: #454a4e; border-radius: 10px; padding: 15px; width: 600px; margin: auto; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);}
-        #cx{text-align: center; padding: 5px;}
-        img{max-width: 350px; }
-    </style>
+</head>
+<body>
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
@@ -86,11 +78,24 @@
             <h1>Escolha um horário e veja o resultado</h1>      
         </header>
         <section>
+            <h2 id="msg"> Escolha uma Opção</h2>
             <div class="cx">
-                <h1 id="msg">Mensagen dinâmica</h1>
+                <ul>
+                    <li>
+                        <input type="time" id="fstart" class="hour" onchange="form_validate_hour()"> Hora Personalizada
+                    </li>
+                    <li>
+                        <article style="margin-top: -10px;">
+                            <a href="" id="h.atural" onclick="form_validate_hour(true)">
+                                Hora atual
+                            </a> 
+                        </article>                        
+                    </li>
+                    
+                </ul>                
             </div>
             <div>
-                <img id="img" src="img/exercise-sample1/12hours.png">
+                <img id="img" src="img/exercise-sample1/00hours.png">
             </div>                
         </section>      
 
@@ -118,57 +123,13 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="exercise.js"></script>
     <script>
         /*navbar*/
         $('.navbar-nav>li>a').on('click', function(){
         $('.navbar-collapse').collapse('hide');});
         $('.dropdown-menu>a').on('click', function(){
         $('.navbar-collapse').collapse('hide');});
-        
-        /*landscap time*/
-        function carregar() {
-            var bg = window.document.getElementById('introduction')
-            var msg = window.document.getElementById('msg')
-            var img = window.document.getElementById('img')
-            var data = new Date()
-            var hora = data.getHours()
-            
-            msg.innerHTML = `Agora são ${hora} horas`
-
-            switch (true) {
-                case (04 > hora && hora >= 00):
-                    img.src = 'img/exercise-sample1/00hours.png'
-                    break;
-                case (06 > hora && hora >= 04):
-                    img.src = 'img/exercise-sample1/04hours.png'
-                    break;
-                case (12 > hora && hora >= 06):
-                    img.src = 'img/exercise-sample1/06hours.png'
-                    break;
-                case (17 > hora && hora >= 12):
-                    img.src = 'img/exercise-sample1/12hours.png'
-                    break;
-                case (20 > hora && hora >= 17):
-                    img.src = "img/exercise-sample1/17hours.png"
-                    break;
-                case (23 > hora && hora >= 20):
-                    img.src = 'img/exercise-sample1/20hours.png'
-                    document.body.style.background = 'linear-gradient(to top, #375790, #96D6F2)'
-                    break;
-            }
-            /*          
-            if(hora >= 0 && hora < 12){
-                //Bom dia
-            }else if (hora >= 12 && hora < 18){
-                //Boa tarde
-            } else {
-                //Boa noite
-            }*/
-
-        }
-        
-          
-
     </script>
 </body>
 </html>
