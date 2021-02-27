@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body onload="form_validate_hour()">
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
@@ -75,9 +75,9 @@
     <main>
         
         <header>
-            <h1>Escolha um horário e veja o resultado</h1>      
+            <h1 id="choose">Escolha um horário e veja o resultado</h1>      
         </header>
-        <section>
+        <section >
             <h2 id="msg"> Escolha uma Opção</h2>
             <div class="cx">
                 <ul>
@@ -86,7 +86,7 @@
                     </li>
                     <li>
                         <article style="margin-top: -10px;">
-                            <a href="" id="h.atural" onclick="form_validate_hour(true)">
+                            <a href="#msg" id="h.atural" onclick="form_validate_hour(true)">
                                 Hora atual
                             </a> 
                         </article>                        
@@ -94,8 +94,8 @@
                     
                 </ul>                
             </div>
-            <div>
-                <img id="img" src="img/exercise-sample1/00hours.png">
+            <div id="img-container">
+                <img id="img" src="00hours.png">
             </div>                
         </section>      
 
