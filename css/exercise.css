@@ -1,0 +1,38 @@
+/*Exercise*/
+body{width: 100%; margin: auto;}
+header{display: flex; color: white; text-align:center; margin-top: 13vh; margin-left: auto; margin-right: auto;}
+h1{margin: auto;}
+h2{text-align: center; margin: 2%;}
+.cx{display: table; list-style-type: none; margin:auto; align-items:center;}
+.cx ul{list-style: none; display: block; margin: 30px;}
+.cx ul li { display: inline-block; list-style-type:none; padding: 0 15px;}
+#img-container{ width: 100%;}
+#img-container img{display: block ;margin: auto;}
+#img-container cite{width: 50%;}
+#img-container p { width: 40%; margin: auto; text-indent: 0; text-align: center;}
+
+
+@media screen and (max-width: 1000px) {
+    header{margin: 10vh 40px 5% 40px; }
+    h1{ padding-top: 5%; font-size: 2rem;}
+    h2{width: 80%; margin: auto; padding: 15px 25px;}
+    #img-container img{display: block ; margin: auto; width: 100%;}
+    #img-container cite{margin: 0 25px;}
+    #img-container p { width: 90%;}
+}
+
+
+/*
+---main{ width: 100%; height: 100vh; background-color: #454a4e;}
+#title{font-size: 2rem;}
+header{color: white; text-align:center; padding-top: 7%;}
+section{width: 100%;}
+#msg, #fstart{text-align: center; margin-top: 10px;}
+.cx{display:flex ; list-style-type: none;width: 800px; margin:auto; align-items:center;}
+.cx ul {margin:auto;}
+.cx ul li { display: inline-block; list-style-type:none; transform:}
+#img-container{display: block;width: 60%; margin: auto; text-align: center;}
+#img-container cite {font-weight: 700;} 
+#img-container p {text-indent: 0%; width: 70; display: block; margin: auto;}
+#img-container img {margin: auto; display: block;}
+*/
