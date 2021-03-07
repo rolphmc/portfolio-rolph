@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/*Exercise1*/
+body{width: 100%; margin: auto;}
+section{height: 100vh;}
+header{display: Block; color: white; text-align:center; margin-top: 13vh; margin-left: auto; margin-right: auto;}
+h1{margin: auto;}
+h2{text-align: center; font-size: 24px;}
+#calc-container a {width: 60px;}
+#calc-container ul {display: flex; justify-content: space-between; flex-wrap: wrap; width: 20%; margin-left: auto; margin-right: auto;}
+#calc-container li {list-style-type: none;}
+#calc-container{ width: 100%; margin-top: 2%;}
+#calc-container cite{width: 50%;}
+#calc-container p { width: 40%; margin: auto; text-indent: 0; text-align: center;}
+#number1, #number2, #result {font-family: 'Orbitron', sans-serif;}
+#result {width: 400px; height: 40px; font-size: 24px;}
+
+@media screen and (max-width: 1000px) {
+    #calc-container ul {display: flex; justify-content: space-between; flex-wrap: wrap; margin-left: auto; margin-right: auto;}
+}

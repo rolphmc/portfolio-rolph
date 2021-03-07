@@ -11,19 +11,20 @@
     <meta property="og:image" content="img/background-msocial.png"/>
     <meta property="og:url" content="https://rolphmc.github.io/portfolio-rolph/"/>
     
-    <title>Viagem pelas horas | @rolph - Developer</title>
+    <title>Calculadora Híbrida | @rolph - Developer</title>
     <link rel="icon" href="img/favicon-16x16.png">
     <link rel="icon" href="img/favicon-32x32.png">
     <!-- Bootstrap CSS 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">-->
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/exercise.css">
+    <link rel="stylesheet" href="css/exercise1.css">
 
 </head>
-<body onload="form_validate_hour()">
+<body>
 
     <main>
         <!--Navbar-->
@@ -77,29 +78,53 @@
             </div>              
         </nav>
         
-        <header>
-            <h1 id="title">Orbitando o planeta terra</h1>      
-        </header>
         <section >
-            <div id="img-container">
-                <!--dinamic text-->
-            </div>
-            <h2 id="msg">  </h2>
-            <div class="cx">
+
+            <header>
+                <h1 id="title">Calculadora Híbrida</h1><br>
+                <h2>Kotlin - JavaScript</h2>      
+            </header>
+
+            <div id="calc-container">
+                <p><input type="number" id="number1" placeholder="dig. valor"></p>
+                <p>Valor 1</p>
+                <p><input type="number" id="number2" placeholder="dig. valor"></p>
+                <p>Valor 2</p>
+
                 <ul>
                     <li>
-                        <input type="number" id="fstart" class="hour" min="0" max="23" onchange="form_validate_hour()"> Hora Personalizada
+                        <article style="margin-top: -10px;">
+                            <a href="#" id="soma" onclick="">
+                                +
+                            </a> 
+                        </article> 
                     </li>
                     <li>
                         <article style="margin-top: -10px;">
-                            <a href="#" id="h.atural" onclick="form_validate_hour(true)">
-                                Hora atual
+                            <a href="#" id="sum" onclick="">
+                                -
                             </a> 
                         </article>                        
                     </li>
-                    
-                </ul>                
-            </div>                
+                    <li>
+                        <article style="margin-top: -10px;">
+                            <a href="#" id="multiplication" onclick="">
+                                x
+                            </a> 
+                        </article>                        
+                    </li>
+                    <li>
+                        <article style="margin-top: -10px;">
+                            <a href="#" id="division" onclick="">
+                                ÷
+                            </a> 
+                        </article>                        
+                    </li>
+                </ul>      
+
+                <p><input type="number" id="result" disabled="disabled" placeholder="Resultado"></p>
+                <p>Escolha a operação e veja o resultado acima</p>
+            </div>                         
         </section>      
 
     </main>
@@ -126,6 +151,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/exercise1-kotlin.js"></script>
     <script src="js/exercise.js"></script>
     <script>
         /*navbar*/
