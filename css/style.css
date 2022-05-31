@@ -2,6 +2,9 @@
 
 /*0,0,0*/
 *{padding: 0; margin: 0; box-sizing: border-box; font-family: 'Space Mono', monospace; text-decoration: none;}
+ul{margin-left: 50px;}
+p.intro {font-size: 2rem;}
+
 
 /*0,0,1*/
 body {background-color: #454a4e; color: #ffffff; margin-left: auto; margin-left: auto;}
@@ -33,7 +36,7 @@ footer{background-color: #2B2A2B;padding-bottom: 5%;}
 /*1,0,0*/
 #introduction {display: flex; align-items: center; height: 100vh; overflow: hidden;}
 #introduction-text {padding: 150px 0px 150px 150px; width: 60%; flex-direction: column;}
-#name-autor{text-transform: uppercase; font-size: 3rem; font-weight: 700;font-family: 'Space Mono', monospace;}
+#name-autor{text-transform: uppercase; font-size: 4rem; font-weight: 700;font-family: 'Space Mono', monospace;}
 #introduction-img {width: 40%; position: relative; top: 10%;}
 #my-cup {width: 80%; max-width: 950px; position: relative; top: 10%;}
 
