@@ -38,7 +38,19 @@ footer{background-color: #2B2A2B;padding-bottom: 5%;}
 #introduction-text {padding: 150px 0px 150px 150px; width: 60%; flex-direction: column;}
 #name-autor{text-transform: uppercase; font-size: 4rem; font-weight: 700;font-family: 'Space Mono', monospace;}
 #introduction-img {width: 40%; position: relative; top: 10%;}
-#my-cup {width: 80%; max-width: 950px; position: relative; top: 10%;}
+#my-cup {
+    width: 80%; 
+    max-width: 950px; 
+    position: relative; 
+    top: 10%; 
+}
+#screen {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    width: 400px;
+    height: 400px;
+}
 
 #who-im{display: flex; align-items: center; height: 100%; overflow: hidden; background-color: #33373B;}
 #im-img{ width: 40%; position: relative; flex-direction: column;}
