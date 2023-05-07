@@ -49,9 +49,9 @@ footer{background-color: #2B2A2B;padding-bottom: 5%;}
 
 #projects, #services, #knowledge{display:block; align-items: center; height: 100%; padding: 8% 100px 8% 100px;}
 
-#cl-graphc{ background: url('../img/cl-graphic.png') no-repeat;background-size: 100%; background-position: center;}
-#property-appraser { background: url('../img/property-appraiser.png') no-repeat;background-size: 100%;}
-#dynamic-stories { background: url('../img/dynamic-stories.png') no-repeat;background-size: 100%;}
+#athene{ background: url('../img/Logo Athene Perfil.png') no-repeat;background-size: 100%; background-position: center;}
+#assessoria2rp { background: url('../img/assessoria2rp.jpg') no-repeat;background-size: 100%;}
+#clhomedecor { background: url('../img/cl-graphic.jpeg') no-repeat;background-size: 100%;}
 
 a#reposit {margin: 0 auto}
 
